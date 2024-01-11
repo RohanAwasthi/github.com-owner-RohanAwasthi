@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testing-azure-apache-praven"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/github.com?owner=RohanAwasthi
+      title: "testing-azure-apache-praven"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-web-app/azure-terrform-job'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/github.com?owner=RohanAwasthi
+    backstage.io/linguist: https://github.com/RohanAwasthi/github.com?owner=RohanAwasthi
+    azure.com/tag-selector: pid/p44
+spec:
+  type: service
+  lifecycle: development
+  owner: EY
